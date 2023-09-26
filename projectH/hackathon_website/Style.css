@@ -1,0 +1,260 @@
+* {
+    margin : 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 500px;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url("the_voyager.jpg");
+    height : 110px;
+    width : 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.anytime {
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+
+#box1 {
+    font-size: 120%;
+}
+
+.lastbox {
+    height: 70px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightpink;
+    border-radius: 10px;
+}
+
+.index {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 100%;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.index:hover {
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+.signin {
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-left: 50px;
+    font-size: 300%;
+}
+
+#list {
+    margin-left: 50px;
+}
+
+.uppertext {
+    background-color: lightblue;
+    width: 1000px;
+    margin-left: 100px;
+    margin-right: 2000px;
+}
+
+.from_and_to {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#boxes {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: larger;
+    border: 1.5px solid black;
+}
+
+.search {
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+
+#arrows {
+    height: 50px;
+    width: 70px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+
+#arrows:hover {
+    background-color: lightgrey;
+    border: 2px solid black;
+}
+
+#boxes:hover {
+    background-color: lightgrey;
+    border: 2px solid black;
+}
+
+.travelphoto {
+    height: 600px;
+    width: 100%;
+    background-image: url("travel_background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.textinmainphoto {
+    height: 60px;
+    width: 700px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.lists {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+#listsitems {
+    height: 70px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigletter {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#listsitems:hover {
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.bigletter:hover {
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 420px;
+    width: 100%;
+}
+
+#photo {
+    height: 400px;
+    width: 400px;
+}
+
+.Pone {
+    background-image: url("top_overall.jpg");
+    background-size: cover;
+}
+
+.Ptwo {
+    background-image: url("bucket_list.jpeg");
+    background-size: cover;
+}
+
+.Pthree {
+    background-image: url("nature.jpg");
+    background-size: cover;
+}
+
+.Pfour {
+    background-image: url("food.jpeg");
+    background-size: cover;
+}
+
+
+
+
